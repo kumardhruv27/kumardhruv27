@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100vh; */
+    background: linear-gradient(#fb009f, #fe0202);
+}
+
+.log-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px 0;
+    background-color: white;
+    width: 350px;
+    border: 1px solid #d2d2d2;
+    height: 500px;
+}
+
+.logo-img{
+    margin: 34px 0;
+    width: 200px;
+}
+.log-form input{
+    color: #737373;
+    width: 77%;
+    margin: 3px 0;
+    padding: 11px;
+    font-size: 11px;
+    border: 1px solid #d2d2d2;
+    background-color: #fbfbf8;
+    border-radius: 2px;
+}
+
+.btn{
+    width: 75%;
+    background-color: #47afff;
+    color: white;
+    margin: 13px 0;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn:active{
+    background:#2c58fe;
+    transform: scale(0.995);
+
+}
+.ord{
+    display: flex;
+    margin: 10px 0;
+
+}
+.left{
+    background-color: #d2d2d2;
+    width: 110px;
+    margin: 9.5px 10px;
+}
+.center{
+    color: #8e8e8e;
+    font-weight: 800;
+}
+.facebook-login{
+    display: flex;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+
+.fb-img{
+    width: 16px;
+    height: 16px;
+    margin: 10px;
+}
+.face-text{
+    color: #1D3C78;
+    margin: 9px 0;
+    font-size: 14px;
+}
+
+.forgot{
+    font-size: 14px;
+    color: #737373;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    border: 1px solid #d2d2d2;
+    height: 60px;
+}
+.dont{
+    font-size: 13px;
+    font-weight: lighter;
+    color: black;
+    margin: 2px;
+}
+.sign-text{
+    font-size: 13px;
+    color: #47afff;
+    font-weight: bolder;
+    margin: 2px;
+    cursor: pointer;
+
+}
+
+.text-help{
+    margin-top: 18px;
+    font-size: 14px;
+
+}
+.img-sp{
+    display: flex;
+    cursor: pointer;
+}
+.img-sp img{
+    width: 120px;
+    height: 42px;
+    margin: 13px 5px;  
+}
+.footer{
+    padding-bottom: 52px; 
+    padding-top: 24px;
+}
+.Links{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Links a {
+    text-decoration: none;
+    color: var(--txt-second-color); 
+    font-size: 13px; 
+    line-height: 18px;
+    margin: 0 8px 12px 8px;
+}
+.copyright {
+    padding: 12px 0;
+    color: var(--txt-second-color);  
+    font-size: 13px; 
+    line-height: 18px; 
+    text-align: center;
+}
+
